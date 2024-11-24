@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    .attribution { 
+      font-size: 11px; 
+      text-align: center;
+      }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); }
+    .div{
+      background-color:hsl(0, 0%, 100%); 
+      display: grid;
+      grid-template-rows: auto auto;
+      align-items: center;
+      justify-items: center;
+      padding: 16px 16px 24px;
+      border-radius: 20px;}
+     body { 
+      background-color: hsl(212, 45%, 89%); 
+      display: flex; 
+      justify-content: space-evenly;
+      flex-direction: column;
+      place-items: center;
+      min-height: 100vh; 
+      margin: 0;}
+    .qrimage {
+      height: 288px; 
+      width: 288px; 
+      border-radius:10px ; }
+    .text{  
+      height: 131px; 
+      width: 288px; 
+      text-align: center; 
+      margin-top: 24px;}
+    .itext{
+      color: hsl(218, 44%, 22%); 
+      font-family:'Outfit', sans-serif; 
+      font-weight: 700; 
+      font-size: 22px; 
+      margin: 0 16px ;}
+    .stext{
+      color: hsl(216, 15%, 48%); 
+      text-align: center; 
+      font-family: 'Outfit', sans-serif; 
+      font-weight: 400 ; 
+      font-size: 15px; 
+      margin: 24px 16px 0 16px;}
+  </style>
+</head>
+<body>
+<div class="div">
+  <img src="./images/image-qr-code.png" class="qrimage">
+<div class="text">
+  <div class="itext">Improve your front-end skills by building projects</div>
+  <p class="stext">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+</div>
+</div>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Shambhavi</a>.
+  </footer>
+</body>
+</html>
